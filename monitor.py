@@ -1,4 +1,4 @@
-# Restaurant Monitor Robot | v0.2 | 13/08/2026 | WhatsApp (CallMeBot) agora lista nomes + link de cada novo
+# Restaurant Monitor Robot | v0.3 | 13/08/2026 | filtros apertados: bloqueio de cidades/titulos/manchetes + gatilho de abertura obrigatorio
 """
 Robo de descoberta de restaurantes recem-inaugurados em NW Arkansas
 (Bentonville, Rogers, Fayetteville).
@@ -45,7 +45,7 @@ FONTES_CSV = "fontes.csv"
 VISTOS_JSON = "ja_vistos.json"
 SAUDE_JSON = "saude_fontes.json"
 DIGESTS_DIR = "digests"
-USER_AGENT = "RestaurantMonitorBot/0.1 (uso pessoal)"
+USER_AGENT = "RestaurantMonitorBot/0.3 (uso pessoal)"
 TIMEOUT = 20
 
 # Textos de ancora que NAO sao nome de restaurante (navegacao / boilerplate).
@@ -58,8 +58,59 @@ STOPLIST = {
     "read also", "click", "visit website", "website", "map", "directions",
 }
 
-# Palavras que sugerem abertura recente (usadas na extracao por regex).
-GATILHOS = r"(?:located|now open|recently opened|opened|will open|is open|debuted|set to open|opening)"
+# Gatilhos FORTES de abertura recente. Agora sao OBRIGATORIOS para qualquer
+# candidato (ancora ou texto). Termos fracos ("located", "is open", "new" solto)
+# foram removidos porque deixavam passar titulo de lista e manchete.
+GATILHOS = (r"(?:now open|newly opened|recently opened|opened its doors|opened|"
+            r"opens|will open|set to open|opening soon|grand opening|coming soon|"
+            r"new location|debut|debuts|debuted)")
+
+# Nomes de lugares (cidades/regiao) que NUNCA sao restaurante — o extrator vinha
+# pegando os proprios nomes das cidades como se fossem nome de estabelecimento.
+LUGARES_BLOQUEADOS = {
+    "bentonville", "rogers", "fayetteville", "springdale", "centerton",
+    "bella vista", "lowell", "cave springs", "siloam springs", "eureka springs",
+    "northwest arkansas", "nwa", "arkansas", "downtown bentonville",
+    "downtown rogers", "downtown fayetteville",
+}
+
+# Se o nome contem um destes trechos, e titulo de lista / secao / manchete —
+# nao e nome de restaurante.
+TERMOS_BLOQUEADOS = [
+    "top ", "best ", "restaurant", "event", "hotel", "airbnb", "things to do",
+    "read more", "guide", "near me", "police", "council", "running for",
+    "explains", "weekend", "list", "review", "what to", "where to", "how to",
+    "meet ", "coupon", "map",
+]
+
+# Primeira palavra que denuncia frase (nao nome). Ex.: "A new bar called...".
+LEAD_STOP = {
+    "a", "an", "this", "that", "new", "read", "here", "here's", "these",
+    "those", "more", "see", "why", "how", "what", "who", "when", "if", "our",
+    "your", "meet", "discover", "explore",
+}
+
+
+def eh_ruido(nome):
+    """True se o nome for cidade, titulo de lista, manchete ou frase — nao restaurante."""
+    n = normalizar(nome)
+    if n in LUGARES_BLOQUEADOS:
+        return True
+    if "|" in nome:                       # ex.: "Hotels | Airbnb"
+        return True
+    palavras = n.split()
+    if palavras and palavras[0] in LEAD_STOP:
+        return True
+    for termo in TERMOS_BLOQUEADOS:
+        if termo in n:
+            return True
+    # "arkansas" so bloqueia quando NAO abre o nome (titulo "...in Bentonville Arkansas");
+    # permite nomes proprios que comecam com Arkansas (ex.: "Arkansas Trails Brewing Co.").
+    if "arkansas" in n and not n.startswith("arkansas"):
+        return True
+    if n.endswith(" ar"):                 # "...in Rogers AR"
+        return True
+    return False
 
 
 # ------------------------------ Utilidades ----------------------------------
@@ -81,7 +132,7 @@ def parece_nome(texto):
         return False
     if t.lower() in STOPLIST:
         return False
-    if len(t.split()) > 7:          # frase, nao nome
+    if len(t.split()) > 6:          # frase, nao nome
         return False
     if not re.search(r"[A-Za-z]", t):
         return False
@@ -148,15 +199,17 @@ def extrair_candidatos(html, fonte):
     base_url = fonte["url"]
     candidatos = {}
 
-    # (1) por ancoras
+    # (1) por ancoras — agora exige gatilho de abertura no contexto e descarta ruido
     for a in soup.find_all("a"):
         nome = a.get_text(strip=True)
-        if not parece_nome(nome):
+        if not parece_nome(nome) or eh_ruido(nome):
             continue
         contexto = a.find_parent(["p", "li", "div", "section"])
         contexto_txt = contexto.get_text(" ", strip=True) if contexto else nome
         cidade = cidade_no_texto(contexto_txt)
         if not cidade:
+            continue
+        if not re.search(GATILHOS, contexto_txt, re.IGNORECASE):
             continue
         href = a.get("href", "")
         site = href if eh_link_externo(href, base_url) else ""
@@ -170,8 +223,9 @@ def extrair_candidatos(html, fonte):
     #     So considera blocos que citam uma cidade-alvo E um gatilho de abertura.
     nome_inicial = re.compile(
         r"^([A-Z][A-Za-z0-9'&.\-\u2019 ]{2,50}?)"
-        r"(?=,|\s+(?:[\u2014\u2013-]|will|is|are|located|opened|opens|open|now|"
-        r"recently|debuted|set to|has|have|serves|brings))"
+        r"(?=,|\s+(?:[\u2014\u2013-]|will|is|are|was|were|has|have|had|located|"
+        r"opened|opens|open|opening|now|recently|newly|debut|debuts|debuted|"
+        r"set to|coming|brings|serves|to open))"
     )
     for bloco in soup.find_all(["p", "li"]):
         txt = bloco.get_text(" ", strip=True)
@@ -184,7 +238,7 @@ def extrair_candidatos(html, fonte):
         if not m:
             continue
         nome = m.group(1).strip()
-        if not parece_nome(nome):
+        if not parece_nome(nome) or eh_ruido(nome):
             continue
         chave = normalizar(nome)
         candidatos.setdefault(chave, {
