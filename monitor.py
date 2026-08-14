@@ -1,4 +1,4 @@
-# Restaurant Monitor Robot | v0.3 | 13/08/2026 | filtros apertados: bloqueio de cidades/titulos/manchetes + gatilho de abertura obrigatorio
+# Restaurant Monitor Robot | v0.4 | 13/08/2026 | fontes de noticia (Flyer/NWA Food) + captura de nome apos "called/named"
 """
 Robo de descoberta de restaurantes recem-inaugurados em NW Arkansas
 (Bentonville, Rogers, Fayetteville).
@@ -45,7 +45,7 @@ FONTES_CSV = "fontes.csv"
 VISTOS_JSON = "ja_vistos.json"
 SAUDE_JSON = "saude_fontes.json"
 DIGESTS_DIR = "digests"
-USER_AGENT = "RestaurantMonitorBot/0.3 (uso pessoal)"
+USER_AGENT = "RestaurantMonitorBot/0.4 (uso pessoal)"
 TIMEOUT = 20
 
 # Textos de ancora que NAO sao nome de restaurante (navegacao / boilerplate).
@@ -62,8 +62,9 @@ STOPLIST = {
 # candidato (ancora ou texto). Termos fracos ("located", "is open", "new" solto)
 # foram removidos porque deixavam passar titulo de lista e manchete.
 GATILHOS = (r"(?:now open|newly opened|recently opened|opened its doors|opened|"
-            r"opens|will open|set to open|opening soon|grand opening|coming soon|"
-            r"new location|debut|debuts|debuted)")
+            r"opens|opening|to open|will open|soon open|set to open|"
+            r"opening soon|grand opening|coming soon|new location|"
+            r"debut|debuts|debuted)")
 
 # Nomes de lugares (cidades/regiao) que NUNCA sao restaurante — o extrator vinha
 # pegando os proprios nomes das cidades como se fossem nome de estabelecimento.
@@ -245,6 +246,30 @@ def extrair_candidatos(html, fonte):
             "nome": nome, "cidade": cidade, "site": "",
             "fonte": fonte["nome"], "url_fonte": base_url,
         })
+
+    # (3) por pista: nome que vem DEPOIS de "called/named/dubbed" (fontes de
+    #     noticia escrevem o nome no meio da frase: "a restaurant called X").
+    #     So em blocos que citam uma cidade-alvo e um gatilho de abertura.
+    pista_nome = re.compile(
+        r"(?:called|named|dubbed)\s+"
+        r"([A-Z0-9][A-Za-z0-9'&.\-\u2019 ]{2,40}?)"
+        r"(?=[,.]|\s+(?:is|are|was|were|has|have|had|will|opened|opens|"
+        r"located|now|recently|at|in|on|[\u2014\u2013-]))"
+    )
+    for bloco in soup.find_all(["p", "li"]):
+        txt = bloco.get_text(" ", strip=True)
+        cidade = cidade_no_texto(txt)
+        if not cidade or not re.search(GATILHOS, txt, re.IGNORECASE):
+            continue
+        for m in pista_nome.finditer(txt):
+            nome = m.group(1).strip()
+            if not parece_nome(nome) or eh_ruido(nome):
+                continue
+            chave = normalizar(nome)
+            candidatos.setdefault(chave, {
+                "nome": nome, "cidade": cidade, "site": "",
+                "fonte": fonte["nome"], "url_fonte": base_url,
+            })
 
     return list(candidatos.values())
 
