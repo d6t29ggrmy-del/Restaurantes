@@ -1,5 +1,6 @@
-nome,url,ativo
-NWA Travel Guide - Novos Restaurantes,https://nwatravelguide.com/new-restaurants-near-me/,sim
-Bentonville Bulletin - Novos Restaurantes,https://www.bentonvillebulletin.com/p/new-restaurants-bentonville-ar-2026,sim
-AY Magazine - Food Bites,https://aymag.com/category/food/,sim
-Arkansas Business - Aberturas,https://www.arkansasbusiness.com/section/restaurants/,sim
+nome	url	ativo
+Fayetteville Flyer - Restaurant News	https://fayettevilleflyer.com/category/news-views/restaurant-news/	sim
+NWA Food Blog - Restaurant News	https://nwafood.com/restaurant-news/	sim
+Bentonville Bulletin - Novos Restaurantes	https://www.bentonvillebulletin.com/p/new-restaurants-bentonville-ar-2026	sim
+NWA Travel Guide - Novos Restaurantes	https://nwatravelguide.com/new-restaurants-near-me/	sim
+Arkansas Business - Aberturas	https://www.arkansasbusiness.com/section/restaurants/	nao
