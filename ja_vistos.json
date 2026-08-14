@@ -1054,5 +1054,89 @@
     "nome": "First Watch",
     "cidade": "Fayetteville",
     "primeiro_visto": "2026-08-14"
+  },
+  {
+    "place_id": "ChIJGVGZVjYbyYcRgNFo5hfhyOk",
+    "nome": "Sunny's",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-14"
+  },
+  {
+    "place_id": "ChIJaTfLdNVvyYcRY1RpyJbW8A8",
+    "nome": "Chick'n Headz",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-14"
+  },
+  {
+    "place_id": "ChIJP5if9IMbyYcRkdVnnknnV_s",
+    "nome": "Wright's Barbecue Bentonville at Walmart Campus",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-14"
+  },
+  {
+    "place_id": "ChIJbYBYxHQRyYcRcXhO1PNWoQ0",
+    "nome": "Cafe USA",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-14"
+  },
+  {
+    "place_id": "ChIJtVKb1lIbyYcRXq5rbB6guk8",
+    "nome": "The Meteor Cafe",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-14"
+  },
+  {
+    "place_id": "ChIJNd104qcXyYcREzVmftPCGrI",
+    "nome": "El Jicaro Salvadoran Restaurant",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-14"
+  },
+  {
+    "place_id": "ChIJI6ADCeYWyYcRxS5RdpoS-Xs",
+    "nome": "Miraflores Restaurant",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-14"
+  },
+  {
+    "place_id": "ChIJjwIORAkXyYcRt81i6kG1idw",
+    "nome": "Sam's Olde Tyme Hamburgers & Barbecue",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-14"
+  },
+  {
+    "place_id": "ChIJdfusRWUXyYcRX8V5svQyxvs",
+    "nome": "Catfish John's",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-14"
+  },
+  {
+    "place_id": "ChIJaxFRhhAXyYcRMS466wDwYzg",
+    "nome": "Botanical at City Pump, Food Trucks & Libations",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-14"
+  },
+  {
+    "place_id": "ChIJE60QJ9puyYcRBGFbdCfFOTA",
+    "nome": "Emelia's Kitchen",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-14"
+  },
+  {
+    "place_id": "ChIJawquXeZoyYcRZF2N3Qrt4fo",
+    "nome": "Rolling Pin Café",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-14"
+  },
+  {
+    "place_id": "ChIJ47c3uztvyYcR_QrTophAYlc",
+    "nome": "Thep Thai Restaurant",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-14"
+  },
+  {
+    "place_id": "ChIJ_--zccpuyYcRcn3TTxlwWHs",
+    "nome": "Ozark Natural Foods",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-14"
   }
 ]
