@@ -1,81 +1,50 @@
-# Restaurant Monitor Robot — NW Arkansas
+# Restaurant Monitor Robot — NW Arkansas (Google Places API)
 
-Robô que descobre **restaurantes recém-inaugurados** em **Bentonville, Rogers e
-Fayetteville (AR)**. Uma vez por dia ele lê as fontes configuradas, detecta o que
-é novo desde a última rodada e envia um resumo agrupado por cidade, com links de
-**site / Yelp / Google** para você conferir.
+Robô que descobre restaurantes em **Bentonville, Rogers e Fayetteville (AR)** via
+**Google Places API (New)**. Uma vez por dia consulta a API, compara com o que já
+viu (`ja_vistos.json`, pela ID única do Google) e avisa no **WhatsApp** os que
+forem novos — cada um com nota, avaliações e links de site/Yelp/Google.
 
-Roda no **GitHub Actions** (Python + `requests` + `BeautifulSoup`), no mesmo
-espírito do robô de preços: sem segredos no código, estado salvo no próprio repo.
-
----
-
-## Como funciona (resumo)
-
-1. Lê os endereços em `fontes.csv`.
-2. Extrai candidatos a restaurante (por links e por frases do tipo
-   "*X ... in Rogers, recently opened*").
-3. Compara com `ja_vistos.json` — só reporta o que ainda não foi visto.
-4. Escreve o resumo do dia em `digests/AAAA-MM-DD.md` e envia por e-mail/WhatsApp
-   (se os segredos estiverem configurados).
-5. Entradas com mais de ~6 meses saem do `ja_vistos.json`, para um lugar poder
-   reaparecer se voltar ao noticiário.
-
-> **v0.1 — honestidade:** a extração é heurística. Espere alguns falsos
-> positivos (por isso o resumo diz "candidatos" — confira os links). Quando uma
-> fonte muda de layout e para de retornar resultados por 4 rodadas seguidas, o
-> resumo inclui um **aviso de saúde**.
+Roda no **GitHub Actions** (Python). Sem segredos no código.
 
 ---
 
-## Passo a passo de instalação
+## Como funciona
 
-1. **Criar o repositório** novo no GitHub (pode ser **público** — aí o Actions é
-   ilimitado; os segredos ficam nos Secrets, nunca no código).
-2. **Subir estes arquivos** para o repositório.
-3. **Configurar o WhatsApp (CallMeBot) — canal principal.** No próprio CallMeBot,
-   autorize o número e pegue sua `apikey` (mesmo processo do robô de preços).
-   Depois cadastre em *Settings → Secrets and variables → Actions*:
-   - `CALLMEBOT_PHONE` — seu número no formato do CallMeBot
-   - `CALLMEBOT_APIKEY` — sua chave do CallMeBot
+1. Para cada cidade, consulta "restaurants in <cidade>, Arkansas" (até 3 páginas).
+2. Junta os resultados e compara com `ja_vistos.json` pela `place_id` do Google.
+3. Reporta só os novos; salva o resumo em `digests/AAAA-MM-DD.md`.
+4. **Primeira rodada (seed):** se `ja_vistos.json` estiver vazio, a estreia
+   cadastra todos em silêncio (senão seriam centenas). Da 2a rodada em diante,
+   só os genuinamente novos são avisados.
 
-   A mensagem de WhatsApp chega assim (nomes por cidade + link do Google em cada,
-   é só tocar para conferir):
-
-   ```
-   🍽️ Novos restaurantes NWA — 2026-08-13 (7)
-
-   *Bentonville*
-   • Wright's Barbecue: https://www.google.com/maps/search/...
-   • Caffeine Bar: https://www.google.com/maps/search/...
-
-   *Rogers*
-   • Chuo Izakaya: https://www.google.com/maps/search/...
-   ```
-
-4. **E-mail (opcional).** Se quiser também receber o resumo completo por e-mail,
-   cadastre os Secrets `EMAIL_ORIGEM` (iCloud remetente), `EMAIL_SENHA_APP`
-   (senha de app do iCloud) e `EMAIL_DESTINO`. Sem esses, o robô manda só o
-   WhatsApp — sem erro.
-5. **Ajustar o horário** (opcional) no `cron` de `.github/workflows/daily.yml`.
-   Lembre: é em UTC.
-6. **Primeira rodada manual:** aba *Actions → restaurantes-diario → Run
-   workflow*. Como o `ja_vistos.json` começa vazio, a primeira rodada traz tudo
-   o que as fontes tiverem hoje — depois disso, só o que for novo.
+> **Honestidade:** a Places API não tem "data de abertura". "Novo" aqui = "novo
+> para o robô" (apareceu depois da estreia) — aproxima recém-aberto, mas não
+> garante. A cobertura pega os mais relevantes por cidade, não 100%.
 
 ---
 
-## Ajustar o que é monitorado
+## Instalação
 
-- **Fontes:** edite `fontes.csv` (`ativo` = `sim`/`nao`). Cidades: `CIDADES` no
-  topo de `monitor.py`.
-- **Teste local sem tocar na internet:** o `fontes.csv` aceita caminhos de
-  arquivos `.html` locais (em vez de URLs). Basta apontar uma linha para um
-  arquivo salvo e rodar `python monitor.py` para validar a lógica offline.
+1. **Chave da Places API** — no Google Cloud, uma chave com a **Places API (New)**
+   habilitada, sem restrição de aplicativo (para rodar no GitHub). Guarde o valor
+   com segurança (nunca no código nem em chat).
+2. **Secrets** em Settings -> Secrets and variables -> Actions -> New repository secret:
+   - GOOGLE_API_KEY — a chave da Places API (obrigatorio)
+   - CALLMEBOT_PHONE e CALLMEBOT_APIKEY — WhatsApp (canal principal)
+   - EMAIL_ORIGEM, EMAIL_SENHA_APP, EMAIL_DESTINO — e-mail (opcional)
+3. **Permissao de escrita:** Settings -> Actions -> General -> Workflow permissions
+   -> Read and write permissions -> Save.
+4. **Horario** (opcional): cron em .github/workflows/daily.yml (em UTC).
+5. **Primeira rodada:** Actions -> restaurantes-diario -> Run workflow. A estreia
+   e o seed silencioso (chega so uma mensagem curta de confirmacao no WhatsApp).
 
-## O que NÃO fazer
+## Ajustes
 
-- Não raspar Yelp nem Google Maps direto (anti-bot / JavaScript) — eles entram
-  só como **links de busca**.
-- Não colocar segredos no código — sempre nos **GitHub Secrets**.
-- Não tratar "fonte sem resultado" como "não abriu nada" — é o aviso de saúde.
+- **Cidades:** CIDADES no topo de monitor.py.
+- **Profundidade:** MAX_PAGINAS (1 pagina ~ 20 lugares; max. 3).
+
+## Custo
+
+Poucas consultas por dia (3 cidades x ate 3 paginas). Volume minimo — cabe
+folgado no credito mensal gratuito do Google Maps Platform.
