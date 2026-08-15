@@ -1138,5 +1138,23 @@
     "nome": "Ozark Natural Foods",
     "cidade": "Fayetteville",
     "primeiro_visto": "2026-08-14"
+  },
+  {
+    "place_id": "ChIJhUbox-cRyYcRBL9uelEENNE",
+    "nome": "Melting Pot",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-15"
+  },
+  {
+    "place_id": "ChIJuZxtqQUXyYcRd9sCe4CkzBA",
+    "nome": "Las Palmas",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-15"
+  },
+  {
+    "place_id": "ChIJfU0iXMRpyYcR2V9qmWZAj48",
+    "nome": "Mess Hall 45",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-15"
   }
 ]
