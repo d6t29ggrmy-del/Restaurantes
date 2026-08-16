@@ -1156,5 +1156,47 @@
     "nome": "Mess Hall 45",
     "cidade": "Fayetteville",
     "primeiro_visto": "2026-08-15"
+  },
+  {
+    "place_id": "ChIJs-qWMWkRyYcRBlptbn8L9tM",
+    "nome": "Crisp and Green",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-16"
+  },
+  {
+    "place_id": "ChIJAfTcyvYQyYcR4syTRSYD8eU",
+    "nome": "Village Inn",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-16"
+  },
+  {
+    "place_id": "ChIJhXV_QMYayYcRQ9mH98nmE6A",
+    "nome": "Zary's Acropolis",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-16"
+  },
+  {
+    "place_id": "ChIJBc2SETIXyYcRpExDp-8p7Ik",
+    "nome": "El Jazmin Restaurant",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-16"
+  },
+  {
+    "place_id": "ChIJu4_bOHFsyYcRr31BicQ1p3M",
+    "nome": "Wright's Barbecue Johnson",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-16"
+  },
+  {
+    "place_id": "ChIJI7RHv3ZsyYcRrvcr95AvknY",
+    "nome": "La Media Luna",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-16"
+  },
+  {
+    "place_id": "ChIJedw3DQtsyYcR12SD5G--IDk",
+    "nome": "Taziki's Mediterranean Cafe - Fayetteville",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-16"
   }
 ]
