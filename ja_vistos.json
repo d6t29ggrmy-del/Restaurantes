@@ -1198,5 +1198,17 @@
     "nome": "Taziki's Mediterranean Cafe - Fayetteville",
     "cidade": "Fayetteville",
     "primeiro_visto": "2026-08-16"
+  },
+  {
+    "place_id": "ChIJE3SWiY8TyYcRJE_R6uCSswM",
+    "nome": "The Fermentary Public House",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-17"
+  },
+  {
+    "place_id": "ChIJIeIQNbYbyYcR70PX9DwsMcs",
+    "nome": "Cura Osteria",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-17"
   }
 ]
