@@ -1210,5 +1210,23 @@
     "nome": "Cura Osteria",
     "cidade": "Rogers",
     "primeiro_visto": "2026-08-17"
+  },
+  {
+    "place_id": "ChIJd3-5Hh4RyYcRp8-9Xzd5WPA",
+    "nome": "Onyx at The Preserve",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-18"
+  },
+  {
+    "place_id": "ChIJ7VT5LOkQyYcRhnzooI9L3Lw",
+    "nome": "C248-Rogers",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-18"
+  },
+  {
+    "place_id": "ChIJo4T1tHRsyYcRReTIeZgQRTc",
+    "nome": "Shogun Steakhouse of Japan",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-18"
   }
 ]
