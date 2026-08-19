@@ -1228,5 +1228,29 @@
     "nome": "Shogun Steakhouse of Japan",
     "cidade": "Fayetteville",
     "primeiro_visto": "2026-08-18"
+  },
+  {
+    "place_id": "ChIJU9NU33ERyYcRg5Z9Y-AvsiI",
+    "nome": "First Watch",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-19"
+  },
+  {
+    "place_id": "ChIJS_-eNwAbyYcRgLs5iz2MkiA",
+    "nome": "Brothers Meethouse",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-19"
+  },
+  {
+    "place_id": "ChIJMz7BvxoXyYcRCbAsZ3CWHRg",
+    "nome": "Lasang Pinoy NWA",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-19"
+  },
+  {
+    "place_id": "ChIJAZUvjPZryYcR4weXMRheojY",
+    "nome": "Noodles Italian Kitchen",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-19"
   }
 ]
