@@ -1306,5 +1306,17 @@
     "nome": "Doomsday Coffee & Roasterie",
     "cidade": "Fayetteville",
     "primeiro_visto": "2026-08-22"
+  },
+  {
+    "place_id": "ChIJFTUXFAMRyYcRKEA60d2zhuQ",
+    "nome": "Red Lobster",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-23"
+  },
+  {
+    "place_id": "ChIJv4ChsRsRyYcRdVdhHrGlULk",
+    "nome": "Mojitos Modern Mexican Grill",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-23"
   }
 ]
