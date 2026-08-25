@@ -1,4 +1,4 @@
-# Restaurant Monitor Robot | v0.6 | 22/08/2026 | WhatsApp: link curto (so cid) + limite de caracteres para nao cortar
+# Restaurant Monitor Robot | v0.7 | 25/08/2026 | WhatsApp: link ainda mais curto (sem https://) para economizar espaco
 """
 Robo de descoberta de restaurantes em NW Arkansas (Bentonville, Rogers,
 Fayetteville) usando a GOOGLE PLACES API (New).
@@ -99,14 +99,16 @@ def link_yelp(nome, cidade):
  
  
 def encurtar_google(url):
-    """O googleMapsUri vem com um parametro g_mp gigante; o cid sozinho ja abre
-    o local. Reduz de ~140 para ~45 caracteres (importante no limite do WhatsApp)."""
+    """Reduz o googleMapsUri ao minimo. O parametro g_mp gigante e removido (o
+    cid sozinho abre o local) e o https:// e cortado — o WhatsApp reconhece
+    'maps.google.com/...' como link clicavel mesmo sem o esquema. Cai de ~140
+    para ~30 caracteres."""
     if not url:
         return ""
     m = re.search(r"cid=(\d+)", url)
     if m:
-        return f"https://maps.google.com/?cid={m.group(1)}"
-    return url.split("&")[0]  # fallback: corta no primeiro parametro extra
+        return f"maps.google.com/?cid={m.group(1)}"
+    return url.split("&")[0].replace("https://", "").replace("http://", "")
  
  
 # --------------------------- Estado (vistos) --------------------------------
@@ -274,3 +276,4 @@ def main():
  
 if __name__ == "__main__":
     sys.exit(main())
+ 
