@@ -1324,5 +1324,17 @@
     "nome": "Olive Garden Italian Restaurant",
     "cidade": "Fayetteville",
     "primeiro_visto": "2026-08-24"
+  },
+  {
+    "place_id": "ChIJ-7fWTuQRyYcRxlEUx7IkT0s",
+    "nome": "The Big Lieutenant",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-25"
+  },
+  {
+    "place_id": "ChIJTz31IPltyYcRBAWwmsYeDKA",
+    "nome": "Hail Fellow Well Met",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-25"
   }
 ]
