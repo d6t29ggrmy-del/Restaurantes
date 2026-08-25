@@ -1372,5 +1372,53 @@
     "nome": "Penguin Ed's Bar-B-Que",
     "cidade": "Fayetteville",
     "primeiro_visto": "2026-08-25"
+  },
+  {
+    "place_id": "ChIJPTv4nXAayYcRQ3mUcO4TrcM",
+    "nome": "Smokin' Joe's Ribhouse",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-25"
+  },
+  {
+    "place_id": "ChIJGScSkpEbyYcRKCLhEKjYxXo",
+    "nome": "Bar Kapu",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-25"
+  },
+  {
+    "place_id": "ChIJe94AXCwRyYcRBcOzdTwnoHY",
+    "nome": "Yummy House",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-25"
+  },
+  {
+    "place_id": "ChIJTbv7V1xpyYcRo9AA4lRWCcY",
+    "nome": "baked by kori",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-25"
+  },
+  {
+    "place_id": "ChIJ458K3R5vyYcRx8BHAuoMRZA",
+    "nome": "FAYMOSA",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-25"
+  },
+  {
+    "place_id": "ChIJCSwUG6xryYcR0ZojHxScdGA",
+    "nome": "Chuy's",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-25"
+  },
+  {
+    "place_id": "ChIJ-xRIMvtvyYcReATFFBcRkn8",
+    "nome": "Eros Teatro",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-25"
+  },
+  {
+    "place_id": "ChIJ70Ro_KtvyYcRnvR7SgXLLeo",
+    "nome": "TyPHOon Authentic Vietnamese Cuisine",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-25"
   }
 ]
