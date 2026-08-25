@@ -1,30 +1,3 @@
-
-/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Monitor · PY
 # Restaurant Monitor Robot | v0.6 | 22/08/2026 | WhatsApp: link curto (so cid) + limite de caracteres para nao cortar
 """
 Robo de descoberta de restaurantes em NW Arkansas (Bentonville, Rogers,
