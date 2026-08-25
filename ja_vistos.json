@@ -1336,5 +1336,41 @@
     "nome": "Hail Fellow Well Met",
     "cidade": "Fayetteville",
     "primeiro_visto": "2026-08-25"
+  },
+  {
+    "place_id": "ChIJJXTTJ68byYcRFc80TD0UEus",
+    "nome": "CO-OP Ramen",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-25"
+  },
+  {
+    "place_id": "ChIJyTPLlwYQyYcRK97KIvv9BsI",
+    "nome": "Beef 'O' Brady's",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-25"
+  },
+  {
+    "place_id": "ChIJm_cdhhAXyYcRazw_--97QQc",
+    "nome": "Boondocks Grill",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-25"
+  },
+  {
+    "place_id": "ChIJu3ev4w8RyYcRlEX4gCRhUfo",
+    "nome": "Torchy's Tacos",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-25"
+  },
+  {
+    "place_id": "ChIJlZmIHzdvyYcRpYZrzXE6xxQ",
+    "nome": "Siam Thai Cuisine",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-25"
+  },
+  {
+    "place_id": "ChIJfRTINShvyYcRRfbigSkXfvg",
+    "nome": "Penguin Ed's Bar-B-Que",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-25"
   }
 ]
