@@ -1,4 +1,4 @@
-# Restaurant Monitor Robot | v0.7 | 25/08/2026 | WhatsApp: link ainda mais curto (sem https://) para economizar espaco
+# Restaurant Monitor Robot | v0.8 | 25/08/2026 | so alerta lugares com poucas avaliacoes (aprox. recem-abertos); registra todos
 """
 Robo de descoberta de restaurantes em NW Arkansas (Bentonville, Rogers,
 Fayetteville) usando a GOOGLE PLACES API (New).
@@ -41,6 +41,9 @@ ESTADO_UF = "Arkansas"
 VISTOS_JSON = "ja_vistos.json"
 DIGESTS_DIR = "digests"
 MAX_PAGINAS = 3                  # ate 3 paginas (~60 lugares) por cidade
+# So alerta lugares com ate esse numero de avaliacoes (aprox. "recem-aberto").
+# Lugares antigos e populares (muitas avaliacoes) sao registrados, mas nao alertados.
+MAX_AVALIACOES = 60
 PLACES_URL = "https://places.googleapis.com/v1/places:searchText"
 FIELD_MASK = (
     "places.id,places.displayName,places.formattedAddress,places.websiteUri,"
@@ -96,6 +99,12 @@ def buscar_cidade(cidade, api_key):
 def link_yelp(nome, cidade):
     return (f"https://www.yelp.com/search?find_desc={quote_plus(nome)}"
             f"&find_loc={quote_plus(cidade + ', AR')}")
+ 
+ 
+def poucas_avaliacoes(p):
+    """True se o lugar tem poucas (ou nenhuma) avaliacao — aproxima recem-aberto."""
+    n = p.get("avaliacoes")
+    return n is None or n <= MAX_AVALIACOES
  
  
 def encurtar_google(url):
@@ -240,9 +249,13 @@ def main():
         except Exception as e:      # noqa: BLE001
             print(f"[cidade] ERRO em {cidade}: {e}")
  
+    # "novos para o robo": nunca vistos antes
     novos = [p for pid, p in todos.items() if pid not in ids_vistos]
+    # "alertaveis": entre os novos, so os com poucas avaliacoes (aprox. recem-abertos)
+    alertaveis = [p for p in novos if poucas_avaliacoes(p)]
  
-    # registra tudo o que viu (novos entram no estado permanente)
+    # registra TODOS os novos no estado permanente (mesmo os nao alertados),
+    # para que lugares antigos e populares nunca voltem como "novos"
     for pid, p in todos.items():
         if pid not in ids_vistos:
             vistos.append({"place_id": pid, "nome": p["nome"],
@@ -263,17 +276,16 @@ def main():
                         f"cadastrados. A partir de amanhã aviso só as novidades.")
         return 0
  
-    digest = montar_digest(novos)
+    digest = montar_digest(alertaveis)
     with open(caminho, "w", encoding="utf-8") as f:
         f.write(digest)
-    print(f"[digest] {caminho} ({len(novos)} novos)")
+    print(f"[digest] {caminho} ({len(alertaveis)} alertados / {len(novos)} novos)")
  
-    if novos:
-        enviar_email(f"Restaurantes novos NWA — {hoje_iso()} ({len(novos)})", digest)
-        enviar_whatsapp(montar_whatsapp(novos))
+    if alertaveis:
+        enviar_email(f"Restaurantes novos NWA — {hoje_iso()} ({len(alertaveis)})", digest)
+        enviar_whatsapp(montar_whatsapp(alertaveis))
     return 0
  
  
 if __name__ == "__main__":
     sys.exit(main())
- 
