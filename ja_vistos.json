@@ -1504,5 +1504,1373 @@
     "nome": "Petra Cafe",
     "cidade": "Fayetteville",
     "primeiro_visto": "2026-08-26"
+  },
+  {
+    "place_id": "ChIJWbl-M9hryYcRT7yEJxMn4ZI",
+    "nome": "Nosh NOLA",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJEVR7z5FryYcRhKTAHnjXU0U",
+    "nome": "Palermo's Italian Restaurant",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJhxXVA91syYcRxS_-wn_FMVk",
+    "nome": "MarketPlace Grill",
+    "cidade": "Johnson",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ528JVsdryYcRSC9350g2Xx8",
+    "nome": "Medusa Bar & Grill",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJxUuo1UlryYcR20DcvuoWD5A",
+    "nome": "Gaskins on Emma",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ2yyX7TNryYcRULFY-Bkes1k",
+    "nome": "Casa Alejo",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ1SI8PHBryYcRXy3_oboLoaY",
+    "nome": "Bauhaus Biergarten",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJdQfz6UlryYcRg691Ue03Ax4",
+    "nome": "The Odd Soul",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJVQ7Ow8hryYcR2QwS0wchgCs",
+    "nome": "AQ Chicken House",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJWQ_hEwBryYcRYLAM9Yf0XoM",
+    "nome": "TOCA",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ-UIiW-1ryYcR-KueDbvPa-s",
+    "nome": "HomeGrown Springdale",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ-yegRH1tyYcRf4Vyz2CUnyM",
+    "nome": "The Meltdown",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJkY_EKQ1tyYcRA5MltEGdDH4",
+    "nome": "JJ's Grill Springdale",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ2wMj47dryYcR3RaKCpvEwHA",
+    "nome": "Gaskins Trattoria",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJwbVoHJdtyYcRR0ZX8wpU1bc",
+    "nome": "The All American Steakhouse & Sports Theater",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJB1cgXANryYcR0tUJ1kkzBiY",
+    "nome": "The Blind Bear",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJcYzkKSFryYcRKFENGcLnNVk",
+    "nome": "Rein Sushi and Hibachi",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJS67Lc5pryYcRJErCAo64T5M",
+    "nome": "Pleasant Counter",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJl7j7NZ5tyYcRMIUsQF1VIhY",
+    "nome": "Hawaiian Bros Island Grill",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ1VEm21FryYcRyRacHCHfOdA",
+    "nome": "kalaveras AR",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJXz7wiVdryYcREDaZR9XoHdw",
+    "nome": "Menya Kitakara",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJH7jsCFxryYcR5HvWL7atUNk",
+    "nome": "Susan's Restaurant",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ6wvTq0VryYcR2o6dKlTTzbU",
+    "nome": "Tesoro Beach Restaurant & Bar",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJs_Tmki9tyYcR4LUBMNLWCJc",
+    "nome": "Pizzeria Ruby",
+    "cidade": "Johnson",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJWyllEgFryYcR8l3PAolD8qk",
+    "nome": "Sabor Catracho Restaurante",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJv22AmzMTyYcRX-BMzWqe1kw",
+    "nome": "Azul Tequila Mexican Cuisine SPRINGDALE",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJDZiYOABryYcReaNq-X4jk94",
+    "nome": "Guatemix Restaurante",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ9yy9KABryYcRznV7yQ5fbxQ",
+    "nome": "Torres Taqueria Bar and Grill",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJv282G5EUyYcRHVcRl3QIivQ",
+    "nome": "Wagon Wheel Country Cafe",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJx8FM07IUyYcRA3MM9Bz-2OQ",
+    "nome": "Neal's Cafe",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJVeUFA0NryYcR6IYQcU7s07A",
+    "nome": "Thai Taste",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJUaEq9R5ryYcRyD-1ipxp85M",
+    "nome": "Acapulco Restaurant",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJj-dY0ttuyYcRrClkOtTNqhE",
+    "nome": "Kraken Killer Seafood",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJRzsoZRlryYcRXtWoiSNYEpQ",
+    "nome": "Mariscos Playa Azul",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJy9VFolxryYcR33m2bF3f7dE",
+    "nome": "Thai Basil Express",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJCblMjXdryYcRIusPMDaEu8g",
+    "nome": "Slim Chickens",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJs8HjG9lsyYcREpygNYCyDwE",
+    "nome": "Jose's Bar & Grill",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJXxH1BoVryYcRzdE7UxKBwPQ",
+    "nome": "La Huerta - Mexican Restaurant",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJA0S6J1FryYcR-_XPkmaN3Rs",
+    "nome": "La Cabanita Mexican Food and Bar",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJc9ODH49ryYcRQu4n8bHuL4o",
+    "nome": "La Despensa Latina",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJH86rFDZryYcRkVP-WARYQSk",
+    "nome": "Spring Street Grill & Catering",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJnQ2xmPxryYcRyWfYjF4cX90",
+    "nome": "Thai Delight Restaurant",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJNfjgdC0TyYcR9GJmiL-qAI0",
+    "nome": "MJ Pizzeria SPRINGDALE",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJH-mUBEVryYcRpVih7zIkwxE",
+    "nome": "Taqueria El Cuñado Abierto Todos Los Dias",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJg0Zs2GVryYcRb1Ldx3Ynhlk",
+    "nome": "La Morenita Restaurant",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ1_FnXKFsyYcRdnlvMgDZNxw",
+    "nome": "Las Margaritas - Mexican Restaurant",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJF-jgSYRryYcR1Y3fAee0YKA",
+    "nome": "Outback Steakhouse",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJxa-K6zZryYcRClmpv6zXpH8",
+    "nome": "Taquería Don Güero",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJrypqcWdryYcR88bFGCIXHf4",
+    "nome": "Charly's Taqueria",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJcxcp_QdryYcRKaV6wBexmg4",
+    "nome": "Amigos Cocina",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJTaOu5ERryYcRl7-u90zZwXo",
+    "nome": "Mandarin Bistro",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJjwwxoqxsyYcRHuj-yvb4CCo",
+    "nome": "La Sirenita Restaurant",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJxfXoJNpsyYcRgRbGsQzKLPY",
+    "nome": "Cracker Barrel Old Country Store",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJdTpeq8FryYcRS37TpBtJ4hU",
+    "nome": "El wero mariscos",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ__xTrhhryYcRVNKMgOXehnY",
+    "nome": "Kin Zabb Thai and Sushi",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJI_ui_tltyYcRGL_8OXcYH6k",
+    "nome": "Romero's Cuisine Toque Latino",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJa3RzaeltyYcR8ZjGW0nRiyA",
+    "nome": "Taqueria Michoacán Springdale",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJLySAIi1ryYcRZRYZfo-wv-Y",
+    "nome": "Sabor D.F. Torteria",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJw_VQPcRsyYcREKqGm4Y_vr0",
+    "nome": "Blu Fin Sushi & Bar",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ_cvoPnMRyYcR7f4Jhfo7h0A",
+    "nome": "Newk's Eatery",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJgyGJlfEQyYcROgvVQAYePE0",
+    "nome": "Taziki's Mediterranean Cafe - Bentonville",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ1SaFHx4DyYcR4KA1fnvYmlU",
+    "nome": "Bella's Table",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJobFDh98DyYcRQzBlEhHq_lg",
+    "nome": "Lakepoint Restaurant",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJobuZYhcDyYcRpiFll41J4YQ",
+    "nome": "BV Bar & Grill",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ12ol9qYDyYcRkX_6K5ssQN8",
+    "nome": "Little Sugar Bistro",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJAYdaoKkEyYcRHAMOgEWhLFI",
+    "nome": "JJ’s Grill Bella Vista",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ6Ub18ukDyYcR3eDWBicSV4g",
+    "nome": "El Pueblito | Mexican Restaurant",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJF2bMezwbyYcRiYxj9SZ055Q",
+    "nome": "Gear Garden",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJnSJooKkEyYcRutG4BKKP9e0",
+    "nome": "Gusano's Chicago-Style Pizzeria",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJTy7Vc7obyYcRGLc5DthGFVM",
+    "nome": "Driftwood Kitchen + Bakery (Food Truck)",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ324Anf4AyYcRepwEjWvPxas",
+    "nome": "Highlands Pub & Patio",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ6b2PBAAFyYcRV81Rx19aa9E",
+    "nome": "Ozzy's Ride & Dine",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJH-TF1S8DyYcR96w5DBOo0og",
+    "nome": "The Silver Spur Restaurant",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJvePHKYUDyYcR-TYpdG1Fp-0",
+    "nome": "Table au Pain",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJVfOvDlkCyYcR-i2qw3mBZ8Y",
+    "nome": "Rosita's Mexican Restaurant",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJTW-hU6wEyYcRfn12MVAVHVg",
+    "nome": "Las Fajitas",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJE46u4XgDyYcR_bOUrbe2H8Q",
+    "nome": "Cafe USA",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ_zRvuq0EyYcR79dtC1f8Oj0",
+    "nome": "Top China",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ28prRAAbyYcRxIlYykcGkio",
+    "nome": "Acre @ Turnbuckle Farm",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJrTEJUVwCyYcRbGqCcdOc1_g",
+    "nome": "Bubbas Bbq",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ19R1AwADyYcR2VjLYQcEJ_8",
+    "nome": "Roadside Kitchen",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJdRws9TWpyYcRFkC6GZpSeWU",
+    "nome": "Smith and Betts Barbecue",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJUYN-cyIbyYcR9oqy7j2kG70",
+    "nome": "Grindstone Coffee NWA - Blowing Springs Park",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJkQFus_wFyYcRKwKtEN0zjEg",
+    "nome": "That Asian Joint",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJZ-3UEXIPyYcRALlhQNY3ZB8",
+    "nome": "Takashi Hibachi & Sushi",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJU4dx3acFyYcRPNPZPF8rLzM",
+    "nome": "Langman Winery and Restaurant Centerton",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ87omd30PyYcRybiTrtFWpUQ",
+    "nome": "El Pueblito | Mexican Restaurant",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJFfxQMZIPyYcRo87kjh17b5k",
+    "nome": "Ameerahs Kitchen",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ5xidNowPyYcRohLd2Yk3sc0",
+    "nome": "Day's Grill",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJTVJOobUFyYcRDiLWTGj_t0s",
+    "nome": "Desi Bites",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJReVEJQAPyYcRnoZLVgzh5cw",
+    "nome": "Kage Sushi",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJp_4fa2IPyYcRCTKwSWM5xRk",
+    "nome": "El Farolito Tex-Mex Restaurant",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJQ-HgIR8PyYcRFFKF8K2XkyU",
+    "nome": "RibCrib BBQ",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJdba_YPYPyYcRG3XmS-3EoH4",
+    "nome": "Tacos and Beer",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJV0UKqm4PyYcR5NhyihmgW_c",
+    "nome": "La Fogata Tacos & Papas Asadas, LLC",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJsYaQcCoPyYcRwYmrjryjn_g",
+    "nome": "Moe's Southwest Grill",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJtUzDDjEPyYcRl45CGtQBBEU",
+    "nome": "Freddy's Frozen Custard & Steakburgers",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJPZQorOwPyYcRLtbY1A74HsU",
+    "nome": "Jai Indian Kitchen",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJVYz3PvkPyYcRM9QIhrajmlg",
+    "nome": "Outlaw Pizza Co.",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJxxSieEgPyYcRCq3m3qgE5kU",
+    "nome": "Honey's Asian Food",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJG9PF3N0FyYcRrj-AAh9obMw",
+    "nome": "The Taco Plug NWA",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJD3cvvOEPyYcRbYgdoHwuxIU",
+    "nome": "DD & F Mexican Grill",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJAQDQk6KiyYcRvfhEkDFcJVo",
+    "nome": "The Park House Kitchen + Bar",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJefwhz-ijyYcR7kZI9nWs7Hk",
+    "nome": "Casa Vega",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ9yAuwRSjyYcRBt6MgNfLq4Q",
+    "nome": "Sam’s Southern Eatery- Siloam Springs, AR",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJrYanCACjyYcRp-8tLm2VBjY",
+    "nome": "Chili's Grill & Bar",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJOyjMgGJryYcRy_vudM5WyyI",
+    "nome": "Big Whiskey's - Siloam Springs",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJP6mHh3OYyYcR_3W2v-ne59Y",
+    "nome": "Callahan's Steak House",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJd4fBxUmZyYcRXJIsVYKyBEg",
+    "nome": "Indian Masala Kitchen",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJY8drDQCZyYcRkC8z9LKj4IM",
+    "nome": "La favorita bar and grill",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ8VRcUgCjyYcRHYhKbBpiAAk",
+    "nome": "A.M. Eats & Tea Treats",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ72LdGB-jyYcRRpnukpdj0EE",
+    "nome": "La Super Rica Restaurant",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJKeZdCtK9yYcRq75g3PmJ_LY",
+    "nome": "Pinch of Southern",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJtfRT7I2jyYcRil8-uootKNs",
+    "nome": "Kilroy Public House",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ-bZTT3iiyYcRAO54qmsdz0M",
+    "nome": "Matador Mexican Bar and Grill",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJP67gMwuYyYcRslz39SrLrGY",
+    "nome": "So Chill Eat",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJBQKudHeiyYcRREytWsRTOOw",
+    "nome": "RibCrib BBQ",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJG9l89J-jyYcRR0upMdEO1ZM",
+    "nome": "Wingstop",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJa_tLRbijyYcRe8QXSPv6Ru0",
+    "nome": "Thai Bangkok Express",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJFyPDEIm9yYcRXngx31duK7k",
+    "nome": "Collective Kitchen(s)",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJH8i_j_ujyYcRcR1Vo_ORZyw",
+    "nome": "The Wooden Spoon",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJM2hRdyWjyYcRxOQF3MJWVjo",
+    "nome": "La Torcia Brick Oven Pizza - Siloam Springs",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJy0tLHWiZyYcR3SU7lxl3q68",
+    "nome": "Mellow Moose Burgers",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJkT6HXZiiyYcRMoOvIb-uSQI",
+    "nome": "Cafe On Broadway",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJf0sn_PyZyYcRQ5abIhFHAzE",
+    "nome": "Thai Chef Restaurant",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJNzx3Jdi9yYcRxsB_CkxaVPU",
+    "nome": "Flint Creek",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJXUc0lHeiyYcRHvDT_lqvfuE",
+    "nome": "Hunan Village",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJuddXkpiiyYcRwMzIisAzdhQ",
+    "nome": "Fratelli's Wood-Fired Pizzeria",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJf8LF1DqjyYcRK5srU1HfBHQ",
+    "nome": "Pork Belly Roberts",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJFf2_5Dq9yYcRO5MU_YnBurM",
+    "nome": "BRGR & CHKN",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJwQub4WujyYcR5CaM1s8Jeh4",
+    "nome": "Taquería Michoacán | Siloam",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJCblyfTGUyYcRQm0bQGi2D1U",
+    "nome": "La Hacienda De Los Reyes",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJY1RMCgeYyYcRWz6HAssJegg",
+    "nome": "La Huerta",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ_SaiXPqjyYcR7u7VSjPjOyY",
+    "nome": "La Costillita Ahumada BBQ",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ-4mpToSZyYcRzwATqeCqXe4",
+    "nome": "Segoku Hibachi & Sushi",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ3x9SzoGjyYcRjyDANgGPDpE",
+    "nome": "Olive Garden Italian Restaurant",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ2YMlOlCjyYcRH15dqB_hA8E",
+    "nome": "Antojit'os karly's",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJUZfaR36YyYcRm6UJzAigB0w",
+    "nome": "Cathy's Corner",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJmfo2dZuiyYcRa3G0XWYYFWM",
+    "nome": "Antojitos Arcoiris",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJvWM1a1ujyYcReRN1YjTHf2E",
+    "nome": "Whataburger",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJMzSMsMK9yYcRPzLwULiqLZI",
+    "nome": "Pit Boss Smokehouse",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJt9LlQZuiyYcRW-07ily2ihY",
+    "nome": "Siloam Cafe LLC",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJdSNjJ20TyYcRBYYgpW0lcRk",
+    "nome": "Ozark Mountain Grill",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJKczam1sVyYcR0oO_SU6h1Gg",
+    "nome": "PK Fried Rice",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJJ6L0lRMUyYcRoO6jGpChpKk",
+    "nome": "Acambaro Restaurant",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJQZxIV30VyYcRp936MqKoLrE",
+    "nome": "El Rey Bar And Grill",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ74qcvp0VyYcRbZM9Q0a5KHI",
+    "nome": "FUKU",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJazW9_F4TyYcRNGV44CqNh1c",
+    "nome": "Pastafina",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJg-nq2BUVyYcRpyuTw7LodFU",
+    "nome": "El Jaliciense Restaurant",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ2f3FmXMUyYcRcFWVH_TXiEg",
+    "nome": "Fast Lane Entertainment",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJPYV26YoTyYcRkCzPHKJ7A7w",
+    "nome": "Workman's Travel Center",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJZxj2o8YRyYcRuLx_QRqmF8o",
+    "nome": "Wright's Barbecue Rogers",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ1UxLmTcXyYcRKAvJJAGlsX8",
+    "nome": "The Big Biscuit",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ_zTWrSgXyYcRAZEWXICHPm4",
+    "nome": "Blue Ember Smokehouse",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ3fOneMkVyYcR3fe9EEit-R4",
+    "nome": "Mama Ita's",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJXeiZtXMXyYcRTmJXauqz4JM",
+    "nome": "PROTEINHOUSE",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJf4OWhQEVyYcR37byNIMrkqM",
+    "nome": "Maison Mouret",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJiUAq5mUUyYcRJSWKnJqnnec",
+    "nome": "La Carreta",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJQ5fk7N8RyYcREJ790SLd41I",
+    "nome": "Texas Roadhouse",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ1XCd7WgXyYcR4-x52Wjfay4",
+    "nome": "King burrito Pleasant Crossing",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ3S1x-gQRyYcRsAeJIvJRO0s",
+    "nome": "Heavenly Acai",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJEYBbPL4TyYcR3CEM0gR9as4",
+    "nome": "Pizza Cave on Main",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ0zWWXQBh0YcRn1PoZ0IOixA",
+    "nome": "BAILEYS",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJe2hEDUZh0YcRarmstp6Rxdk",
+    "nome": "The Gypsy Willow Scratch Kitchen & Oyster Bar",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJi9Hh3XQRyYcR8vmE-SIJsO0",
+    "nome": "Chuo Izakaya",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJMwjkCcnSzocR3YeX-h_0xCs",
+    "nome": "Grotto Wood-Fired Grill and Wine Cave",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJe9OY6fdg0YcRafCZmke5BzU",
+    "nome": "El Palenque",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJZ3Fc680RyYcRFsnJbfLQ1fA",
+    "nome": "Mr. Wok Asian Bistro",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJaSQVwvBg0YcRLjXc2DkaDrI",
+    "nome": "Buttercup's Kitchen",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJndRH3INryYcRetFijtokV6c",
+    "nome": "Bienvenue Restaurant",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJpRkApU3nxIcRLWpMRBbg21Q",
+    "nome": "The Cave Bar & Grill",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ6z25DboVyYcRpcGCmd0jfas",
+    "nome": "Yankabilly Smokehouse",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJx3ML3PdryYcRtxZBI4s8uBE",
+    "nome": "Wood Stone Pizza Uptown",
+    "cidade": "Johnson",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJnwjgb_RryYcRRTGOqRYRXPg",
+    "nome": "Juicy Tails Fayetteville",
+    "cidade": "Johnson",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJCefgPkFryYcRM7TLNN6jog8",
+    "nome": "Flyway Brewing Company - Fayetteville",
+    "cidade": "Johnson",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ0RpP_b4ZyYcRjs2lByCUI4o",
+    "nome": "Cooper's Golf Lounge",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ51pciLMfyYcRecyIXYtDe_k",
+    "nome": "What's Up Dog?",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJnYkHRy8ZyYcR_WIBTiDSxtQ",
+    "nome": "Rainbow House Asian Bistro",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJASS5EC8ZyYcR4dxIidOQVhE",
+    "nome": "Takashimura Hibachi Pea Ridge",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ3_11VC8ZyYcRQGVuJlCsGvM",
+    "nome": "Diego's - Mexican Restaurant",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJL2sYFwAZyYcRPe8Ljw3ZIUQ",
+    "nome": "Tummy Taxi food truck",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJCxc7_q4ZyYcRI_sZ20ZGdaE",
+    "nome": "Taquería Tonantzin",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJBxOnIncZyYcRem__FzHSqj8",
+    "nome": "Viva El Taco Mexican grill",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ_VqVzh1xyYcRkplzZ3x3xwE",
+    "nome": "Beau's Bayou Smokehouse",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJEYCs8DZxyYcRiCnuzeMDCBs",
+    "nome": "La Familia Tacos",
+    "cidade": "Farmington",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJBWiCBBBxyYcR03pOGPWfaR4",
+    "nome": "Pedal Park",
+    "cidade": "Farmington",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ246hFyRwyYcRSkcG3WYyZ_k",
+    "nome": "Briar Rose Bakery & Deli",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ2RK-IgBxyYcRpvRjISI3A88",
+    "nome": "Pizza Navona",
+    "cidade": "Farmington",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJwe2yXAB7yYcRq4u0jdqG0_w",
+    "nome": "Love shack",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJkbOgQHlxyYcRcAqvzTQLV5U",
+    "nome": "Blue Agave's Mexican Grill",
+    "cidade": "Farmington",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ6_D5SSdwyYcRBNy7pv54ysc",
+    "nome": "Mandalay Fusion",
+    "cidade": "Farmington",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJE4Hzpj5wyYcRkMNJHVz09uc",
+    "nome": "Gabriela's Mexican Grill Restaurant",
+    "cidade": "Farmington",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ3-79B81xyYcRUbNIAOYJ1gA",
+    "nome": "Simple Simon's Pizza",
+    "cidade": "Farmington",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJAW6Py5kayYcRG-NtiK2memg",
+    "nome": "Pedal Pops",
+    "cidade": "Farmington",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJeU1y8z5wyYcRTA0GMmJGdbY",
+    "nome": "Jim's Razorback Pizza",
+    "cidade": "Farmington",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJaR4xoup7yYcREBS4Zzboo1c",
+    "nome": "Coyle's Family Restaurant",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJjXK7Hod5yYcRGdqYzGIo1Eg",
+    "nome": "Mel's Diner",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ5VL2YId5yYcRZsAKwNMQRbc",
+    "nome": "Magnolia House",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJfTJPVCh6yYcRkfiNDyGfaKE",
+    "nome": "Gabriela's Mexican Grill Restaurant",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ69rsJAB5yYcRojrm3QSSaHg",
+    "nome": "Kenji Japanese express",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJXeBHuyl6yYcR-ULpKLvIuPA",
+    "nome": "Con Sabor a México",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJcR7j5fB5yYcRXxMC8jJTbzY",
+    "nome": "Red Dirt Barbecue",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJM5BewIZ5yYcRPO7SCnFtWF4",
+    "nome": "Jim's Razorback Pizza",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJpfwL-ICEyYcRpfWWs2NG1to",
+    "nome": "American Drive In",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJB33u1D9vyYcRM7oMi7E4Xy8",
+    "nome": "Nacho Mommas",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJX4m7VgB5yYcR_ntY2-oinj8",
+    "nome": "The Catfish Shack",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJdUqIPwB7yYcRiXwfSoQ2ses",
+    "nome": "Domino's Pizza",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJQYbQ62uCyYcRlQQiIQaovEs",
+    "nome": "BurgerLand",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJUci_rjx5yYcR1y194_gDMZQ",
+    "nome": "Del Rio Foods",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJjRe2FsrSzocR_ZigsCeIpdA",
+    "nome": "Local Flavor Cafe",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ04cY3ZzTzocRw_B77BKJcpE",
+    "nome": "McGarity's Restaurant & Irish Pub",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJd_PLmwbTzocRX9pumovLOV4",
+    "nome": "The Horseshoe Grill",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJXRzogkzTzocRwSvOMqPqz90",
+    "nome": "The Spring on Main",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJw-xRnrHSzocRJx0Hk9Y5mrw",
+    "nome": "Sparky's Roadhouse Cafe",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJnw7_T8nSzocRdOzWQnRSKJk",
+    "nome": "Rogue's Manor",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJr9mhCsnSzocRbmfA5B86sEU",
+    "nome": "Balcony Restaurant & Bar",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJt4DdZcvSzocR0re1UzIVtfo",
+    "nome": "Ermilio's Italian Home Cooking",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJS0tRqbvTzocRA6ruhPoQhVk",
+    "nome": "Myrtie Mae's",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJkzYFMQAryYcR_KE4Ept-mBY",
+    "nome": "The Porch on Holiday Island",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJrZG7dx0tyYcRS6HV8WglP_w",
+    "nome": "Rowdy Beaver Restaurant & Tavern",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ5dkC-V4tyYcR3cyeTivB-Y8",
+    "nome": "Sugar and Crumbs Cafe",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJxQk9KszSzocRGIcHtOb0_y4",
+    "nome": "SkyBar Gourmet Pizza",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJK58hkfjTzocR5WXkdUQQfQI",
+    "nome": "Saddle Up",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJP0AccQDTzocRUVW-R6rRNUA",
+    "nome": "Pauly's Burgers, Fries & Gelato | Best Burgers In Eureka Springs, AR",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJX6dKEcnSzocR_0f0M2xrU1s",
+    "nome": "Le Stick Nouveau",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ772lD0MryYcRZ1Sjwx1OAek",
+    "nome": "T&W Back Porch Restaurant",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJaRu2_EotyYcRUTc1qNl_B9s",
+    "nome": "Bubba's Barbecue",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
+  },
+  {
+    "place_id": "ChIJ8ZmPwHctyYcRYj-9eNzVw8M",
+    "nome": "Gravel Bar at Wanderoo Lodge",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-28"
   }
 ]
