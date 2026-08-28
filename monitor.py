@@ -1,4 +1,4 @@
-# Restaurant Monitor Robot | v0.8 | 25/08/2026 | so alerta lugares com poucas avaliacoes (aprox. recem-abertos); registra todos
+# Restaurant Monitor Robot | v0.9 | 27/08/2026 | cobertura de toda a regiao NWA (14 cidades) com paginas por tamanho
 """
 Robo de descoberta de restaurantes em NW Arkansas (Bentonville, Rogers,
 Fayetteville) usando a GOOGLE PLACES API (New).
@@ -36,11 +36,19 @@ from urllib.parse import quote_plus
 import requests
  
 # ----------------------------- Configuracao ---------------------------------
-CIDADES = ["Bentonville", "Rogers", "Fayetteville"]
+# Cidades cobertas e quantas paginas buscar em cada uma. Cidade maior = mais
+# paginas (mais restaurantes); cidade pequena = 1 pagina basta. Assim a cobertura
+# cresce para toda a regiao NWA sem estourar a cota gratuita da Places API.
+CIDADES_PAGINAS = [
+    ("Fayetteville", 3), ("Springdale", 3), ("Rogers", 3), ("Bentonville", 3),
+    ("Bella Vista", 2), ("Centerton", 2), ("Siloam Springs", 2), ("Lowell", 2),
+    ("Cave Springs", 1), ("Johnson", 1), ("Pea Ridge", 1), ("Farmington", 1),
+    ("Prairie Grove", 1), ("Eureka Springs", 1),
+]
+CIDADES = [c for c, _ in CIDADES_PAGINAS]   # ordem usada para agrupar no digest/WhatsApp
 ESTADO_UF = "Arkansas"
 VISTOS_JSON = "ja_vistos.json"
 DIGESTS_DIR = "digests"
-MAX_PAGINAS = 3                  # ate 3 paginas (~60 lugares) por cidade
 # So alerta lugares com ate esse numero de avaliacoes (aprox. "recem-aberto").
 # Lugares antigos e populares (muitas avaliacoes) sao registrados, mas nao alertados.
 MAX_AVALIACOES = 60
@@ -58,11 +66,11 @@ def hoje_iso():
  
  
 # --------------------------- Consulta a Places API --------------------------
-def buscar_cidade(cidade, api_key):
+def buscar_cidade(cidade, api_key, paginas):
     """Retorna lista de restaurantes da cidade via Places API (paginado)."""
     resultados = []
     page_token = None
-    for _ in range(MAX_PAGINAS):
+    for _ in range(paginas):
         body = {"textQuery": f"restaurants in {cidade}, {ESTADO_UF}"}
         if page_token:
             body["pageToken"] = page_token
@@ -241,9 +249,9 @@ def main():
     seed = len(vistos) == 0        # ja_vistos vazio = primeira rodada
  
     todos = {}
-    for cidade in CIDADES:
+    for cidade, paginas in CIDADES_PAGINAS:
         try:
-            for p in buscar_cidade(cidade, api_key):
+            for p in buscar_cidade(cidade, api_key, paginas):
                 if p["place_id"]:
                     todos[p["place_id"]] = p
         except Exception as e:      # noqa: BLE001
