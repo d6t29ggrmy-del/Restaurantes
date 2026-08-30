@@ -3082,5 +3082,77 @@
     "nome": "Filling Station Restaurant",
     "cidade": "Eureka Springs",
     "primeiro_visto": "2026-08-29"
+  },
+  {
+    "place_id": "ChIJXQ3jW2FvyYcRi93eStD20rQ",
+    "nome": "KAI sushi | grill | bar",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-30"
+  },
+  {
+    "place_id": "ChIJQ7-TLOxryYcRiwXnmIsQTvg",
+    "nome": "Mellow Mushroom Fayetteville",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-08-30"
+  },
+  {
+    "place_id": "ChIJfz9RdWJtyYcRf1iE_sI2YnM",
+    "nome": "The Toasted Yolk Cafe",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-30"
+  },
+  {
+    "place_id": "ChIJiceJcqtsyYcRgfNobRU2FJY",
+    "nome": "E-San Restaurant",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-30"
+  },
+  {
+    "place_id": "ChIJ1T1d6klryYcRyPiOt4ovyzI",
+    "nome": "Mr. Taco Loco",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-30"
+  },
+  {
+    "place_id": "ChIJe1X6JvEQyYcRKH3k6hzVeeU",
+    "nome": "Shogun Japanese Steakhouse",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-08-30"
+  },
+  {
+    "place_id": "ChIJRXDyl5iiyYcRkwf5pw9Hd2k",
+    "nome": "Creekside Taproom",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-08-30"
+  },
+  {
+    "place_id": "ChIJh4qzv6sWyYcRiiqHTvwtLJc",
+    "nome": "Old Chicago Pizza + Taproom",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-30"
+  },
+  {
+    "place_id": "ChIJB6F0nPZ9zIcRA1IKB0FXeVs",
+    "nome": "The Skycrest Restaurant",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-08-30"
+  },
+  {
+    "place_id": "ChIJDXyTsihxyYcRYbq-dYm4hPs",
+    "nome": "Taqueria El Jefe",
+    "cidade": "Farmington",
+    "primeiro_visto": "2026-08-30"
+  },
+  {
+    "place_id": "ChIJ_9ouIMrSzocRGtd5p4y0-gI",
+    "nome": "Main Street Cafe Eureka Springs",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-30"
+  },
+  {
+    "place_id": "ChIJEZAqhtDSzocRdtPaQnbYTpI",
+    "nome": "Eureka Springs & North Arkansas Railway",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-08-30"
   }
 ]
