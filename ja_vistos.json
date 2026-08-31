@@ -3154,5 +3154,35 @@
     "nome": "Eureka Springs & North Arkansas Railway",
     "cidade": "Eureka Springs",
     "primeiro_visto": "2026-08-30"
+  },
+  {
+    "place_id": "ChIJPxxWNyBryYcRlLY5WE3iy3w",
+    "nome": "Pupuseria Sabor Salvadoreño",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-31"
+  },
+  {
+    "place_id": "ChIJPY7KCokUyYcRw3HBzQFZodk",
+    "nome": "Las Fajitas Springdale - Mexican Restaurant",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-08-31"
+  },
+  {
+    "place_id": "ChIJAQBwu-sWyYcRePukJNmgqUo",
+    "nome": "Checos Tacos",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-08-31"
+  },
+  {
+    "place_id": "ChIJASswPNKFzocRGnTepiIMMrg",
+    "nome": "Cliff House Inn",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-08-31"
+  },
+  {
+    "place_id": "ChIJZY5eF9KFzocRbFstoUXNvFE",
+    "nome": "Ozark Cafe",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-08-31"
   }
 ]
