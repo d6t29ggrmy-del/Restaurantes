@@ -3184,5 +3184,17 @@
     "nome": "Ozark Cafe",
     "cidade": "Cave Springs",
     "primeiro_visto": "2026-08-31"
+  },
+  {
+    "place_id": "ChIJYTStYsAVyYcRPjJPcVa2xgg",
+    "nome": "Mariscos El Kora",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-09-01"
+  },
+  {
+    "place_id": "ChIJbV3YOKAVyYcR4l7-_wYzVFQ",
+    "nome": "Crepes and Omelette Cafe",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-09-01"
   }
 ]
