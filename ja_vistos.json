@@ -3208,5 +3208,29 @@
     "nome": "Las Palmas",
     "cidade": "Bentonville",
     "primeiro_visto": "2026-09-02"
+  },
+  {
+    "place_id": "ChIJQT0fV-RryYcRT3g8rurmOKo",
+    "nome": "Mothership",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-09-03"
+  },
+  {
+    "place_id": "ChIJJczgIT3_yIcRNfguyCmjulk",
+    "nome": "Hurley's Olde Bay Restaurant",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-09-03"
+  },
+  {
+    "place_id": "ChIJhTdid-IVyYcRfKQRteCsl2A",
+    "nome": "Lowell food trucks",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-09-03"
+  },
+  {
+    "place_id": "ChIJxTjWjlVpyYcRVA78yWSHraY",
+    "nome": "Herman's Ribhouse",
+    "cidade": "Johnson",
+    "primeiro_visto": "2026-09-03"
   }
 ]
