@@ -3250,5 +3250,59 @@
     "nome": "Bistro by Tabletop Greens",
     "cidade": "Bentonville",
     "primeiro_visto": "2026-09-05"
+  },
+  {
+    "place_id": "ChIJ9SXPWOBtyYcRcnD9RyidqiM",
+    "nome": "The Buttered Biscuit",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-09-06"
+  },
+  {
+    "place_id": "ChIJV-VPd5FryYcRkmxMOYSKT_M",
+    "nome": "Dice Goblins' Cafe",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-09-06"
+  },
+  {
+    "place_id": "ChIJV6rNc5BtyYcRF53s1ziW_0w",
+    "nome": "Smith and Betts Barbecue - Springdale",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-09-06"
+  },
+  {
+    "place_id": "ChIJ5aYgAJ4XyYcRppWZO5QjWDs",
+    "nome": "Taco Casa Rogers",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-09-06"
+  },
+  {
+    "place_id": "ChIJH9B2MLsbyYcR3N3R8RkHA4c",
+    "nome": "Archie's Sandwichery",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-09-06"
+  },
+  {
+    "place_id": "ChIJUf3bFKUayYcRGGgRNBEsDgE",
+    "nome": "Pho Thanh",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-09-06"
+  },
+  {
+    "place_id": "ChIJ9deIEGqjyYcRx6MHBAMsRu4",
+    "nome": "IHOP",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-09-06"
+  },
+  {
+    "place_id": "ChIJA0LqZMijyYcRJpyrMXExlN0",
+    "nome": "Jersey Mike's Subs",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-09-06"
+  },
+  {
+    "place_id": "ChIJR7YwWUaDyYcRQBq09lFOFJM",
+    "nome": "La Villa Mexican Restaurant",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-09-06"
   }
 ]
