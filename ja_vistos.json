@@ -3316,5 +3316,29 @@
     "nome": "HomeGrown - Rogers",
     "cidade": "Rogers",
     "primeiro_visto": "2026-09-09"
+  },
+  {
+    "place_id": "ChIJ-RNjS0sVyYcRRukqxp-8040",
+    "nome": "Los 3 Catrachos",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-09-11"
+  },
+  {
+    "place_id": "ChIJ_2A9DAgSyYcRLctmNHpH1tQ",
+    "nome": "Joyhouse Coffee Company",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-09-11"
+  },
+  {
+    "place_id": "ChIJC76O47sfyYcRDSAM8nZzOvA",
+    "nome": "Play to Winn BBQ Events and Catering",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-09-11"
+  },
+  {
+    "place_id": "ChIJh3yCtOIYyYcRqC8AzGNPBx4",
+    "nome": "Big Sugar Golf Club",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-09-11"
   }
 ]
