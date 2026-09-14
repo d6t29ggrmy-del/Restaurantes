@@ -3340,5 +3340,35 @@
     "nome": "Big Sugar Golf Club",
     "cidade": "Pea Ridge",
     "primeiro_visto": "2026-09-11"
+  },
+  {
+    "place_id": "ChIJaZkqOJIRyYcRLCHZgjx4oow",
+    "nome": "Velvet Sunrise Breakfast & Lunch",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-09-14"
+  },
+  {
+    "place_id": "ChIJ8SMDnZkayYcRyE6SSCIBP40",
+    "nome": "Ramo d'Olivo",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-09-14"
+  },
+  {
+    "place_id": "ChIJk9-O1Ysg0ocRKSDu1rcfXq8",
+    "nome": "Anglers Restaurant",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-09-14"
+  },
+  {
+    "place_id": "ChIJazx5e4z00YcRAvRmIWg15vc",
+    "nome": "Blanchard Springs Caverns",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-09-14"
+  },
+  {
+    "place_id": "ChIJH-lV7Lgh0ocRt1ToebJxGOc",
+    "nome": "Spah Grill Mountain View",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-09-14"
   }
 ]
