@@ -3394,5 +3394,35 @@
     "nome": "Out of Towne Bistro at Prestonrose",
     "cidade": "Johnson",
     "primeiro_visto": "2026-09-21"
+  },
+  {
+    "place_id": "ChIJCWY0QiwXyYcRd9H6Vh4sZwo",
+    "nome": "Big Whiskey’s - Rogers",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-09-22"
+  },
+  {
+    "place_id": "ChIJ0VVTUWkTyYcR10BHUnV4dhc",
+    "nome": "Wendy's",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-09-22"
+  },
+  {
+    "place_id": "ChIJVbUNmWkVyYcRqJUsVffiUmc",
+    "nome": "Y & Y Chinese and Thai Food",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-09-22"
+  },
+  {
+    "place_id": "ChIJhzJWwUMTyYcRGWWntpd1ZvA",
+    "nome": "Jimmy John's",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-09-22"
+  },
+  {
+    "place_id": "ChIJeUVL7TsVyYcRHnJeEP0_NVk",
+    "nome": "Yum-N-Go Food Truck Court",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-09-22"
   }
 ]
