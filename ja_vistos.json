@@ -3430,5 +3430,29 @@
     "nome": "Boars Nest",
     "cidade": "Rogers",
     "primeiro_visto": "2026-09-23"
+  },
+  {
+    "place_id": "ChIJ514BdQDTzocRbI9B_7nN7fw",
+    "nome": "Holiday Island Grill",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-09-24"
+  },
+  {
+    "place_id": "ChIJhSJqjMnSzocRxOr5MBWJwHs",
+    "nome": "Mud Street Cafe",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-09-24"
+  },
+  {
+    "place_id": "ChIJGV9_ESfTzocRVM9BT_kHhGw",
+    "nome": "Disco's Grill",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-09-24"
+  },
+  {
+    "place_id": "ChIJP_lHLB1vyYcRpbc79zLgMEI",
+    "nome": "SAUCED Barbeque & Brews",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-09-24"
   }
 ]
