@@ -3466,5 +3466,23 @@
     "nome": "Mikes Kitchen and cantina",
     "cidade": "Eureka Springs",
     "primeiro_visto": "2026-09-26"
+  },
+  {
+    "place_id": "ChIJJ-OcrCgZyYcRg35z0PeH7pA",
+    "nome": "Victoria's Mexican Restaurant",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-09-27"
+  },
+  {
+    "place_id": "ChIJZZKcoSgZyYcRSb17zpAzHP8",
+    "nome": "Simple Simon's Pizza",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-09-27"
+  },
+  {
+    "place_id": "ChIJoTiTSVAZyYcRtQuTD5iThBE",
+    "nome": "Casey's",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-09-27"
   }
 ]
