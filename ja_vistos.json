@@ -3484,5 +3484,89 @@
     "nome": "Casey's",
     "cidade": "Pea Ridge",
     "primeiro_visto": "2026-09-27"
+  },
+  {
+    "place_id": "ChIJ4xr340RvyYcRAABr9oN69WA",
+    "nome": "Handshake",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-09-28"
+  },
+  {
+    "place_id": "ChIJEZFfjZpvyYcRlic5PY-xULM",
+    "nome": "Big Daddy's Burgers & Hugs Ice Cream",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-09-28"
+  },
+  {
+    "place_id": "ChIJdx73ALQRyYcR-9Y9UY9w-UE",
+    "nome": "Culver’s",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-09-28"
+  },
+  {
+    "place_id": "ChIJR4pBTvoRyYcRQi7HceB2ka4",
+    "nome": "The Burger Den",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-09-28"
+  },
+  {
+    "place_id": "ChIJW71UnhMbyYcRoZIRy6gUjzs",
+    "nome": "Pizza Lottie’s",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-09-28"
+  },
+  {
+    "place_id": "ChIJsz6NnT4DyYcRn7_fFXFxQZs",
+    "nome": "Mega Central Station",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-09-28"
+  },
+  {
+    "place_id": "ChIJ69aYOwARyYcRMUpxeY_DrbQ",
+    "nome": "KPOT Korean BBQ & Hot Pot",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-09-28"
+  },
+  {
+    "place_id": "ChIJq2heXgBvyYcR5du4BPm8RrM",
+    "nome": "El Comal De La Abuela",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-09-28"
+  },
+  {
+    "place_id": "ChIJC6NmGQB7yYcRJqHuLVM_3Cc",
+    "nome": "McDonald’s",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-09-28"
+  },
+  {
+    "place_id": "ChIJYXlnXC17yYcRJo5xvV0pZsU",
+    "nome": "Taco Bell",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-09-28"
+  },
+  {
+    "place_id": "ChIJoZ00oWR7yYcRXar_j97hpIk",
+    "nome": "Casey's",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-09-28"
+  },
+  {
+    "place_id": "ChIJKZtqLdDSzocRs47NsfMmqs4",
+    "nome": "Eureka Springs Downtown",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-09-28"
+  },
+  {
+    "place_id": "ChIJGzEK1UHTzocRxo-JZEpo1oM",
+    "nome": "The Cafe @ Devine’s Downtown",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-09-28"
+  },
+  {
+    "place_id": "ChIJ2deHPsnSzocROZgQReOFx5w",
+    "nome": "Chelsea's Corner Cafe",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-09-28"
   }
 ]
