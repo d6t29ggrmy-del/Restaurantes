@@ -3568,5 +3568,77 @@
     "nome": "Chelsea's Corner Cafe",
     "cidade": "Eureka Springs",
     "primeiro_visto": "2026-09-28"
+  },
+  {
+    "place_id": "ChIJw7Htv-kXyYcRP0AF3eXE5MU",
+    "nome": "Thai Taste #2",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-09-29"
+  },
+  {
+    "place_id": "ChIJtwqQcAAXyYcRs3T0dK_BVQQ",
+    "nome": "Tacos el Moy",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-09-29"
+  },
+  {
+    "place_id": "ChIJG6NmMD0XyYcRvqNKEAVNh0o",
+    "nome": "Carlolita´s",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-09-29"
+  },
+  {
+    "place_id": "ChIJwctOWIIayYcRsD8jDaKrLes",
+    "nome": "8th Street Market",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-09-29"
+  },
+  {
+    "place_id": "ChIJgUC5MZwPyYcRiWqjIYg16GU",
+    "nome": "Muse Fresh Burgers",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-09-29"
+  },
+  {
+    "place_id": "ChIJ9SUS58ERyYcRcN7JHiuLGtw",
+    "nome": "Hawaiian Bros Island Grill",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-09-29"
+  },
+  {
+    "place_id": "ChIJtQh8UqAPyYcRzgmNiIjHYxA",
+    "nome": "Classics Food Truck",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-09-29"
+  },
+  {
+    "place_id": "ChIJIXVLZmcPyYcRlCbPqyU8C8c",
+    "nome": "Chipotle Mexican Grill",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-09-29"
+  },
+  {
+    "place_id": "ChIJw-ar_ooPyYcRC0RThuUPe4c",
+    "nome": "Schlotzsky's Deli",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-09-29"
+  },
+  {
+    "place_id": "ChIJwf_FIBkTyYcR64WhtTaoUb0",
+    "nome": "Tropical Smoothie Cafe",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-09-29"
+  },
+  {
+    "place_id": "ChIJf0GAo9RryYcRSrKQJEPT0lg",
+    "nome": "Gusano's Chicago Style Pizzeria",
+    "cidade": "Johnson",
+    "primeiro_visto": "2026-09-29"
+  },
+  {
+    "place_id": "ChIJlbMD21tDyYcRCmlcvxCXXPo",
+    "nome": "Hefty Hoagies",
+    "cidade": "Farmington",
+    "primeiro_visto": "2026-09-29"
   }
 ]
