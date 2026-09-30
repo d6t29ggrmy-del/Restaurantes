@@ -3640,5 +3640,71 @@
     "nome": "Hefty Hoagies",
     "cidade": "Farmington",
     "primeiro_visto": "2026-09-29"
+  },
+  {
+    "place_id": "ChIJd_5eULJuyYcRCgd4bYE9ygQ",
+    "nome": "Foghorn's",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-09-30"
+  },
+  {
+    "place_id": "ChIJqSMAWMNvyYcRmYw9NyHQzM0",
+    "nome": "Spoon Fusion Korea Oh K-Dog",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-09-30"
+  },
+  {
+    "place_id": "ChIJKSsNGqVyyYcRHxaUQqFhcqc",
+    "nome": "Red Door Bar & Grill",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-09-30"
+  },
+  {
+    "place_id": "ChIJb9RdhU5ryYcR_3k6H9swbAY",
+    "nome": "Taqueria Guanajuato Bar & Grill",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-09-30"
+  },
+  {
+    "place_id": "ChIJn5mc1IlryYcRs7YYVHzXTIo",
+    "nome": "Emma’s Market & Bottle Shop",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-09-30"
+  },
+  {
+    "place_id": "ChIJQzGNe7tsyYcRbtTVHtvC5L8",
+    "nome": "Panda Buffet",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-09-30"
+  },
+  {
+    "place_id": "ChIJsYYxgc8byYcRF1R9LrG68hY",
+    "nome": "Turnbuckle Farm",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-09-30"
+  },
+  {
+    "place_id": "ChIJaQDD3hYFyYcRJnYpwAzFHG4",
+    "nome": "Picadeli Salad Bar",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-09-30"
+  },
+  {
+    "place_id": "ChIJYcdLzvoAyYcR_chP22QsGGY",
+    "nome": "Highlands Golf and Pub",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-09-30"
+  },
+  {
+    "place_id": "ChIJqX_2THkRyYcRTberOY6QvEk",
+    "nome": "Waldo's Chicken & Beer",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-09-30"
+  },
+  {
+    "place_id": "ChIJaQQmqcNlyYcR_L1zuiCmXCY",
+    "nome": "Smoke 'N' Willie",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-09-30"
   }
 ]
