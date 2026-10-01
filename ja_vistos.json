@@ -3706,5 +3706,29 @@
     "nome": "Smoke 'N' Willie",
     "cidade": "Prairie Grove",
     "primeiro_visto": "2026-09-30"
+  },
+  {
+    "place_id": "ChIJmbFfFlJryYcRxtxBJHqUxBQ",
+    "nome": "CAVA",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-10-01"
+  },
+  {
+    "place_id": "ChIJU0M2ka5tyYcR06zW9vfnbM4",
+    "nome": "Pickleman's Gourmet Cafe",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-10-01"
+  },
+  {
+    "place_id": "ChIJA9pqJbRuyYcRQcc-0MlkAUo",
+    "nome": "Mermaids Catering",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-10-01"
+  },
+  {
+    "place_id": "ChIJUd6kawAbyYcRyocRikTJMzU",
+    "nome": "The Pastrami Wagon",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-10-01"
   }
 ]
