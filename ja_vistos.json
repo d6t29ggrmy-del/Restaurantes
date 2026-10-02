@@ -3730,5 +3730,23 @@
     "nome": "The Pastrami Wagon",
     "cidade": "Bentonville",
     "primeiro_visto": "2026-10-01"
+  },
+  {
+    "place_id": "ChIJif8GxgNvyYcRC9qynjOrvm8",
+    "nome": "Raising Cane's Chicken Fingers",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-10-02"
+  },
+  {
+    "place_id": "ChIJRS2cWvIPyYcRnOJJyZX__Gc",
+    "nome": "Popeyes Louisiana Kitchen",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-10-02"
+  },
+  {
+    "place_id": "ChIJ-VzAge0TyYcRiqjxhqQtBig",
+    "nome": "Los Monchies",
+    "cidade": "Cave Springs",
+    "primeiro_visto": "2026-10-02"
   }
 ]
