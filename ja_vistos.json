@@ -3748,5 +3748,29 @@
     "nome": "Los Monchies",
     "cidade": "Cave Springs",
     "primeiro_visto": "2026-10-02"
+  },
+  {
+    "place_id": "ChIJZ55vSwARyYcRPYG12BWIZMc",
+    "nome": "Ashleigh Cocktail Lounge",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-10-03"
+  },
+  {
+    "place_id": "ChIJUTYLA32ZyYcRRz3jIU58siI",
+    "nome": "The Happy Hangout",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-10-03"
+  },
+  {
+    "place_id": "ChIJix6Hbf6ZyYcRGLah_ZxihjQ",
+    "nome": "Schlotzsky's Deli",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-10-03"
+  },
+  {
+    "place_id": "ChIJ0cTAInKjyYcRLEPPM_raybY",
+    "nome": "Sizzling Wok Thai and Chinese Food",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-10-03"
   }
 ]
