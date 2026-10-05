@@ -3778,5 +3778,59 @@
     "nome": "The SpringHouse",
     "cidade": "Lowell",
     "primeiro_visto": "2026-10-04"
+  },
+  {
+    "place_id": "ChIJ6bqgMgBvyYcR_bYXte336Vo",
+    "nome": "Frida's California Grill",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-10-05"
+  },
+  {
+    "place_id": "ChIJ4R12bF5vyYcRrf5sgXy3r88",
+    "nome": "Torchy's Tacos",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-10-05"
+  },
+  {
+    "place_id": "ChIJERyQup9ryYcRwIp8g-HTFLk",
+    "nome": "Homie Thai Food and Grill",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-10-05"
+  },
+  {
+    "place_id": "ChIJaxmsUkAQyYcRsaZdXCS2eP8",
+    "nome": "Thai Basil Bentonville",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-10-05"
+  },
+  {
+    "place_id": "ChIJs1pPElkCyYcRoAWszrFDk3g",
+    "nome": "Jim's Razorback Pizza",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-10-05"
+  },
+  {
+    "place_id": "ChIJseu4eGEZyYcRhVHk_jA6nQw",
+    "nome": "Mr. Noodle",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-10-05"
+  },
+  {
+    "place_id": "ChIJVcHXsyl6yYcRr88rZrE1dJo",
+    "nome": "Sonic Drive-In",
+    "cidade": "Prairie Grove",
+    "primeiro_visto": "2026-10-05"
+  },
+  {
+    "place_id": "ChIJybhRGUjTzocRwbTsOUZhgsE",
+    "nome": "Three Bird Cafe",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-10-05"
+  },
+  {
+    "place_id": "ChIJoyb4DcnSzocRX9PU9sxzdEw",
+    "nome": "Rowdy Beaver Den",
+    "cidade": "Eureka Springs",
+    "primeiro_visto": "2026-10-05"
   }
 ]
