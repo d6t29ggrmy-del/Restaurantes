@@ -3898,5 +3898,23 @@
     "nome": "Eureka Live",
     "cidade": "Eureka Springs",
     "primeiro_visto": "2026-10-11"
+  },
+  {
+    "place_id": "ChIJz5ReAkNryYcRRCFQJblozNk",
+    "nome": "Silk Road Thai Restaurant",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-10-12"
+  },
+  {
+    "place_id": "ChIJiaB5_k5ryYcRawKLXJsuLvw",
+    "nome": "Waffle House",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-10-12"
+  },
+  {
+    "place_id": "ChIJiwjZcQBryYcRjWmHK_dOC6Y",
+    "nome": "Mrs. Corn",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-10-12"
   }
 ]
