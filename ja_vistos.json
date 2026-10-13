@@ -3916,5 +3916,71 @@
     "nome": "Mrs. Corn",
     "cidade": "Springdale",
     "primeiro_visto": "2026-10-12"
+  },
+  {
+    "place_id": "ChIJe6yqegFvyYcRtTgKYzylvKg",
+    "nome": "Whataburger",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-10-13"
+  },
+  {
+    "place_id": "ChIJGYA8XdtsyYcRTb7j3ENCBzk",
+    "nome": "Waffle House",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-10-13"
+  },
+  {
+    "place_id": "ChIJ-5SyIEFryYcRiQRu4qSfJHE",
+    "nome": "Morelia's Mexican Restaurant & Tortilleria",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-10-13"
+  },
+  {
+    "place_id": "ChIJmbIi2TVryYcR1Yr3bln1t7Q",
+    "nome": "El Charro Mexican Restaurant",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-10-13"
+  },
+  {
+    "place_id": "ChIJxY-XVUJryYcRzvrwaWQ0_oA",
+    "nome": "Taquería México",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-10-13"
+  },
+  {
+    "place_id": "ChIJY_3XKjptyYcR3qf5U-Hvs54",
+    "nome": "Buffalo Wild Wings",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-10-13"
+  },
+  {
+    "place_id": "ChIJHdwE72xtyYcRvYGhbzRoNuU",
+    "nome": "El Señor De Los Tacos bar & grill",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-10-13"
+  },
+  {
+    "place_id": "ChIJpYsNXUNryYcRmFYBIPVC3rI",
+    "nome": "La Mangonada Restaurant & Fruteria",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-10-13"
+  },
+  {
+    "place_id": "ChIJU7exNhpryYcRMoyXLMo8s4s",
+    "nome": "Alex's Taqueria",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-10-13"
+  },
+  {
+    "place_id": "ChIJfw6nd2cZyYcR_3XqjaT0oU4",
+    "nome": "Wendy's",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-10-13"
+  },
+  {
+    "place_id": "ChIJYf7KOy8ZyYcRP33-0oEprs4",
+    "nome": "Sonic Drive-In",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-10-13"
   }
 ]
