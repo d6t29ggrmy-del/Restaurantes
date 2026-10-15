@@ -3988,5 +3988,35 @@
     "nome": "Thai Spice",
     "cidade": "Springdale",
     "primeiro_visto": "2026-10-14"
+  },
+  {
+    "place_id": "ChIJmTD6df5ryYcRfvEMsd8hyDY",
+    "nome": "Whole Hog Cafe",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-10-15"
+  },
+  {
+    "place_id": "ChIJ562ro5-ZyYcRF8_i1PXkddU",
+    "nome": "Griffin's Food Court",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-10-15"
+  },
+  {
+    "place_id": "ChIJ3cTQvPjf0ocR1IIx941gkP4",
+    "nome": "Taylor's Kitchen and Catering",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-10-15"
+  },
+  {
+    "place_id": "ChIJ8VC0DPgXyYcRqK_B9T--8pQ",
+    "nome": "Taziki's Mediterranean Cafe - Rogers",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-10-15"
+  },
+  {
+    "place_id": "ChIJc9SEDTz8zYcRO2cEVzcJj08",
+    "nome": "Skylark Cafe",
+    "cidade": "Pea Ridge",
+    "primeiro_visto": "2026-10-15"
   }
 ]
