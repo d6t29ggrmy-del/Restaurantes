@@ -4018,5 +4018,17 @@
     "nome": "Skylark Cafe",
     "cidade": "Pea Ridge",
     "primeiro_visto": "2026-10-15"
+  },
+  {
+    "place_id": "ChIJ484s0hBsyYcR1SMdTLMdgKI",
+    "nome": "Kobe Hibachi Grill & Sushi",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-10-16"
+  },
+  {
+    "place_id": "ChIJ-wV3B5gbyYcRUcKjUZKDyuY",
+    "nome": "Piehouse Bakery",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-10-16"
   }
 ]
