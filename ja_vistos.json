@@ -4042,5 +4042,47 @@
     "nome": "Whistling Springs Brewing Co.",
     "cidade": "Pea Ridge",
     "primeiro_visto": "2026-10-17"
+  },
+  {
+    "place_id": "ChIJIUxvTTgFyYcRkqgk4g0IVUc",
+    "nome": "Wok N Roll Hibachi On Wheels",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-10-18"
+  },
+  {
+    "place_id": "ChIJp36iSsMdyYcRN6xzWu40Hgk",
+    "nome": "Grindstone Coffee",
+    "cidade": "Bella Vista",
+    "primeiro_visto": "2026-10-18"
+  },
+  {
+    "place_id": "ChIJX6M2bCJd0ocRc0oa7d3jdGQ",
+    "nome": "Grumpy's Getaway",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-10-18"
+  },
+  {
+    "place_id": "ChIJpZPvLicTyYcRXjfdRnc3AZA",
+    "nome": "Taco Bell",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-10-18"
+  },
+  {
+    "place_id": "ChIJswJ82z5wyYcRe8apg6KL33w",
+    "nome": "Sonic Drive-In",
+    "cidade": "Farmington",
+    "primeiro_visto": "2026-10-18"
+  },
+  {
+    "place_id": "ChIJ8-QHSylxyYcREpMaRptmUXY",
+    "nome": "Wendy's",
+    "cidade": "Farmington",
+    "primeiro_visto": "2026-10-18"
+  },
+  {
+    "place_id": "ChIJc4LoDxRxyYcRU07_14M_CMQ",
+    "nome": "Curry N Go",
+    "cidade": "Farmington",
+    "primeiro_visto": "2026-10-18"
   }
 ]
