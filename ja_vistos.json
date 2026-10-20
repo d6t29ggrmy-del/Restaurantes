@@ -4090,5 +4090,17 @@
     "nome": "Tacos Zama",
     "cidade": "Rogers",
     "primeiro_visto": "2026-10-19"
+  },
+  {
+    "place_id": "ChIJPQtZzEtryYcRnG2Ip2WhRPM",
+    "nome": "Apple's Thai Nee Restaurant",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-10-20"
+  },
+  {
+    "place_id": "ChIJ89Z60noPyYcRhFD2vjmH0Xw",
+    "nome": "Centerton Food Trucks Park",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-10-20"
   }
 ]
