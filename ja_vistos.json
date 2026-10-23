@@ -4108,5 +4108,17 @@
     "nome": "Taqueria Torres",
     "cidade": "Springdale",
     "primeiro_visto": "2026-10-21"
+  },
+  {
+    "place_id": "ChIJH5X2IgBryYcR6f_MSkSoQfM",
+    "nome": "Panda Express",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-10-23"
+  },
+  {
+    "place_id": "ChIJo2fBOasRyYcRmORnkRSQ4v4",
+    "nome": "Dum N Grill - Bentonville",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-10-23"
   }
 ]
