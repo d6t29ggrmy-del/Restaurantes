@@ -4120,5 +4120,29 @@
     "nome": "Dum N Grill - Bentonville",
     "cidade": "Bentonville",
     "primeiro_visto": "2026-10-23"
+  },
+  {
+    "place_id": "ChIJJ_tOFUAQyYcR0AXZgNovC8k",
+    "nome": "Flavors Indian Cuisine",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-10-25"
+  },
+  {
+    "place_id": "ChIJz6EIWd4PyYcRUCLXhCsnusY",
+    "nome": "Chola cafe",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-10-25"
+  },
+  {
+    "place_id": "ChIJU8I2dGwUyYcR5B0Eur9V5oA",
+    "nome": "Sonic Drive-In",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-10-25"
+  },
+  {
+    "place_id": "ChIJYSHwEmwUyYcR_8tnVWiWr40",
+    "nome": "Dairy Queen Grill & Chill",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-10-25"
   }
 ]
