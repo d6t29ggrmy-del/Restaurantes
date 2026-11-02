@@ -4168,5 +4168,17 @@
     "nome": "Sonic Drive-In",
     "cidade": "Centerton",
     "primeiro_visto": "2026-11-01"
+  },
+  {
+    "place_id": "ChIJc5FKhsARyYcRhjInfFpgipE",
+    "nome": "Rendezvous Junction Brewing Co.",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-11-02"
+  },
+  {
+    "place_id": "ChIJ1UNUenMUyYcRuLPO_vy9eWU",
+    "nome": "Arby's",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-11-02"
   }
 ]
