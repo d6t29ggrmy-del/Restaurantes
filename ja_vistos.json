@@ -4180,5 +4180,17 @@
     "nome": "Arby's",
     "cidade": "Lowell",
     "primeiro_visto": "2026-11-02"
+  },
+  {
+    "place_id": "ChIJw0pBPYBryYcR2iwZ2opMq3s",
+    "nome": "La Fonda Kitchen Express",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-11-03"
+  },
+  {
+    "place_id": "ChIJMb_1gnQUyYcRGt5yQPlxLps",
+    "nome": "McDonald's",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-11-03"
   }
 ]
