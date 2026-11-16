@@ -4258,5 +4258,23 @@
     "nome": "7 Brew Coffee",
     "cidade": "Lowell",
     "primeiro_visto": "2026-11-15"
+  },
+  {
+    "place_id": "ChIJF3oSBw4XyYcRSy_W-TkVJ3E",
+    "nome": "Takashimura Hibachi Rogers",
+    "cidade": "Rogers",
+    "primeiro_visto": "2026-11-16"
+  },
+  {
+    "place_id": "ChIJTQQZXy8PyYcRNjh27OJiRLc",
+    "nome": "Waffle House",
+    "cidade": "Centerton",
+    "primeiro_visto": "2026-11-16"
+  },
+  {
+    "place_id": "ChIJucCEDwATyYcRIRxwKJeQaAI",
+    "nome": "Ozark Adventure Park",
+    "cidade": "Lowell",
+    "primeiro_visto": "2026-11-16"
   }
 ]
