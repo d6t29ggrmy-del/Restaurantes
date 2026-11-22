@@ -4312,5 +4312,23 @@
     "nome": "Fried Rice 3",
     "cidade": "Springdale",
     "primeiro_visto": "2026-11-20"
+  },
+  {
+    "place_id": "ChIJD6_8cwBryYcR1KEP4x8gjus",
+    "nome": "El Hangar Mexican Food",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-11-22"
+  },
+  {
+    "place_id": "ChIJJcDHi3EbyYcRyQMmaBIULQc",
+    "nome": "Muselet",
+    "cidade": "Bentonville",
+    "primeiro_visto": "2026-11-22"
+  },
+  {
+    "place_id": "ChIJo9nTzQuYyYcRaA8zyMO3Sao",
+    "nome": "Long John Silver's",
+    "cidade": "Siloam Springs",
+    "primeiro_visto": "2026-11-22"
   }
 ]
