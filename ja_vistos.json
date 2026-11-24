@@ -4330,5 +4330,17 @@
     "nome": "Long John Silver's",
     "cidade": "Siloam Springs",
     "primeiro_visto": "2026-11-22"
+  },
+  {
+    "place_id": "ChIJ7fGQq4JryYcRC-NLqWOnPWo",
+    "nome": "Bougie Buns at Puritan on Dickson",
+    "cidade": "Fayetteville",
+    "primeiro_visto": "2026-11-24"
+  },
+  {
+    "place_id": "ChIJoeQIwmNtyYcRptk9HnyPgUQ",
+    "nome": "Krispy Krunchy Chicken",
+    "cidade": "Springdale",
+    "primeiro_visto": "2026-11-24"
   }
 ]
